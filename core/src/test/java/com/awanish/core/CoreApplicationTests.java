@@ -12,7 +12,7 @@ import com.awanish.core.dao.service.PaymentServiceImpl;
 class CoreApplicationTests {
 	@Autowired
 	PaymentServiceImpl service;
-
+    //this method is used to create the dependency-injection
 	@Test
 	public void testDependencyInjection() {
 		
