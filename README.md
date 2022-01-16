@@ -10,5 +10,12 @@
 
 
 #Tech
-Springboot,junitTest,dependency-injecton
+java,Springboot,junitTest,dependency-injecton
+
+#Project Manageemnt
+Maven
+
+#Version Control
+Git
+
 
