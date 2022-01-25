@@ -43,4 +43,20 @@ public class AppConfig {
 }
 
 ===========================================================================================================================================================
+In XML based configuration, if the beans are wired using @Autowired annotation, 
+then <context:annotation-config/> has to be added to the XML file. 
+Otherwise, you can include the AutowiredAnnotationBeanPostProcessor bean in the XML configuration file.
 
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.springframework.org/schema/beans
+        https://www.springframework.org/schema/beans/spring-beans.xsd
+        http://www.springframework.org/schema/context
+        http://www.springframework.org/schema/context/spring-context.xsd"
+        xmlns:context="http://www.springframework.org/schema/context"
+        >
+
+    <context:annotation-config/>
+	
+======================================================================================================================================================================
