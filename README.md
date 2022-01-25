@@ -74,3 +74,11 @@ Not easy for testing This approach creates a lot of problems while testing the a
 
 
 ===============================================================================================================================================================
+
+Two ways to perform Dependency Injection in Spring framework
+Spring framework provides two ways to inject dependency
+
+By Constructor
+By Setter method
+
+============================================================================================================================================================================
