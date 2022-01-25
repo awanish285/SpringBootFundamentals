@@ -28,3 +28,19 @@ Git
 The @Autowired annotation marks a Constructor, Setter method, Properties and Config() method as to be autowired that is ‘injecting beans'(Objects) at runtime by Spring Dependency Injection mechanism
 
 
+Enabling @Autowired annotation
+
+Spring beans can be declared either by Java configuration or XML configuration. By declaring beans, you provide metadata to the Spring Container to return the required dependency object at runtime. 
+This is called Spring Bean Autowiring. 
+In java based configuration, all the bean methods are defined in the class with @configuration annotation. 
+At runtime, Spring will provide bean definitions by reading those methods. Using @Autowired, the right dependency is assigned by the Spring Container
+
+========================================================================================================================================================================
+@Configuration
+public class AppConfig {
+
+// bean methods
+}
+
+===========================================================================================================================================================
+
