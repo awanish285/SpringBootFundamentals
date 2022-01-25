@@ -60,3 +60,17 @@ Otherwise, you can include the AutowiredAnnotationBeanPostProcessor bean in the 
     <context:annotation-config/>
 	
 ======================================================================================================================================================================
+Dependency Injection in Spring: 
+
+Dependency Injection (DI) is a design pattern that removes the dependency from the programming code so that it can be easy to manage and test the application. 
+Dependency Injection makes our programming code loosely coupled.
+
+Problems of Dependency Lookup
+There are mainly two problems of dependency lookup.
+
+tight coupling The dependency lookup approach makes the code tightly coupled. 
+If resource is changed, we need to perform a lot of modification in the code.
+Not easy for testing This approach creates a lot of problems while testing the application especially in black box testing.
+
+
+===============================================================================================================================================================
