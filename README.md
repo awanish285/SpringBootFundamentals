@@ -127,3 +127,13 @@ It also minimizes writing multiple boilerplate codes (the code that has to be in
 It increases productivity and reduces development time.
 
 ==================================================================================================================================================================================================
+
+#Goals of Spring Boot
+The main goal of Spring Boot is to reduce development, unit test, and integration test time.
+
+Provides Opinionated Development approach
+Avoids defining more Annotation Configuration
+Avoids writing lots of import statements
+Avoids XML Configuration.
+
+=========================================================================================================================================================================
