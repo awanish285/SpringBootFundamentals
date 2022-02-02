@@ -106,3 +106,11 @@ It simplifies integration with other Java frameworks like JPA/Hibernate ORM, Str
 It reduces the cost and development time of the application.
 
 ========================================================================================================================================================================
+
+Spring Data: It simplifies data access from the relational and NoSQL databases.
+Spring Batch: It provides powerful batch processing.
+Spring Security: It is a security framework that provides robust security to applications.
+Spring Social: It supports integration with social networking like LinkedIn.
+Spring Integration: It is an implementation of Enterprise Integration Patterns. It facilitates integration with other enterprise applications using lightweight messaging and declarative adapters.
+
+================================================================================================================================================================================
