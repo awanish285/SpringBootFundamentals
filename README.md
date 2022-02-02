@@ -95,3 +95,14 @@ It is used to create a stand-alone Spring-based application that you can just ru
 In short, Spring Boot is the combination of Spring Framework and Embedded Servers.
 
 ==============================================================================================================================================================
+
+Why should we use Spring Boot Framework?
+
+We should use Spring Boot Framework because:
+
+The dependency injection approach is used in Spring Boot.
+It contains powerful database transaction management capabilities.
+It simplifies integration with other Java frameworks like JPA/Hibernate ORM, Struts, etc.
+It reduces the cost and development time of the application.
+
+========================================================================================================================================================================
