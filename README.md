@@ -60,7 +60,7 @@ Otherwise, you can include the AutowiredAnnotationBeanPostProcessor bean in the 
     <context:annotation-config/>
 	
 ======================================================================================================================================================================
-Dependency Injection in Spring: 
+#Dependency Injection in Spring: 
 
 Dependency Injection (DI) is a design pattern that removes the dependency from the programming code so that it can be easy to manage and test the application. 
 Dependency Injection makes our programming code loosely coupled.
@@ -75,15 +75,15 @@ Not easy for testing This approach creates a lot of problems while testing the a
 
 ===============================================================================================================================================================
 
-Two ways to perform Dependency Injection in Spring framework
+#Two ways to perform Dependency Injection in Spring framework
 Spring framework provides two ways to inject dependency
 
-By Constructor
-By Setter method
+1) By Constructor
+2) By Setter method
 
 ============================================================================================================================================================================
 
-What is Spring Boot
+#What is Spring Boot
 Spring Boot is a project that is built on the top of the Spring Framework. It provides an easier and faster way to set up, configure, and run both simple and web-based applications.
 
 It is a Spring module that provides the RAD (Rapid Application Development) feature to the Spring Framework. 
@@ -96,7 +96,7 @@ In short, Spring Boot is the combination of Spring Framework and Embedded Server
 
 ==============================================================================================================================================================
 
-Why should we use Spring Boot Framework?
+#Why should we use Spring Boot Framework?
 
 We should use Spring Boot Framework because:
 
