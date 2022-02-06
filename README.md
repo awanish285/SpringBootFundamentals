@@ -100,10 +100,10 @@ In short, Spring Boot is the combination of Spring Framework and Embedded Server
 
 We should use Spring Boot Framework because:
 
-The dependency injection approach is used in Spring Boot.
-It contains powerful database transaction management capabilities.
-It simplifies integration with other Java frameworks like JPA/Hibernate ORM, Struts, etc.
-It reduces the cost and development time of the application.
+1) The dependency injection approach is used in Spring Boot.
+2) It contains powerful database transaction management capabilities.
+3) It simplifies integration with other Java frameworks like JPA/Hibernate ORM, Struts, etc.
+4) It reduces the cost and development time of the application.
 
 ========================================================================================================================================================================
 
@@ -116,24 +116,24 @@ Spring Integration: It is an implementation of Enterprise Integration Patterns. 
 ================================================================================================================================================================================
 #Advantages of Spring Boot
 
-It creates stand-alone Spring applications that can be started using Java -jar.
-It tests web applications easily with the help of different Embedded HTTP servers such as Tomcat, Jetty, etc. We don't need to deploy WAR files.
-It provides opinionated 'starter' POMs to simplify our Maven configuration.
-It provides production-ready features such as metrics, health checks, and externalized configuration.
-There is no requirement for XML configuration.
-It offers a CLI tool for developing and testing the Spring Boot application.
-It offers the number of plug-ins.
-It also minimizes writing multiple boilerplate codes (the code that has to be included in many places with little or no alteration), XML configuration, and annotations.
-It increases productivity and reduces development time.
+1) It creates stand-alone Spring applications that can be started using Java -jar.
+2) It tests web applications easily with the help of different Embedded HTTP servers such as Tomcat, Jetty, etc. We don't need to deploy WAR files.
+3) It provides opinionated 'starter' POMs to simplify our Maven configuration.
+4) It provides production-ready features such as metrics, health checks, and externalized configuration.
+5) There is no requirement for XML configuration.
+6) It offers a CLI tool for developing and testing the Spring Boot application.
+7) It offers the number of plug-ins.
+8) It also minimizes writing multiple boilerplate codes (the code that has to be included in many places with little or no alteration), XML configuration, and annotations.
+9) It increases productivity and reduces development time.
 
 ==================================================================================================================================================================================================
 
 #Goals of Spring Boot
 The main goal of Spring Boot is to reduce development, unit test, and integration test time.
 
-Provides Opinionated Development approach
-Avoids defining more Annotation Configuration
-Avoids writing lots of import statements
-Avoids XML Configuration.
+1) Provides Opinionated Development approach
+2) Avoids defining more Annotation Configuration
+3) Avoids writing lots of import statements
+4) Avoids XML Configuration.
 
 =========================================================================================================================================================================
