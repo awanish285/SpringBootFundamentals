@@ -65,12 +65,12 @@ Otherwise, you can include the AutowiredAnnotationBeanPostProcessor bean in the 
 Dependency Injection (DI) is a design pattern that removes the dependency from the programming code so that it can be easy to manage and test the application. 
 Dependency Injection makes our programming code loosely coupled.
 
-Problems of Dependency Lookup
+#Problems of Dependency Lookup
 There are mainly two problems of dependency lookup.
 
-tight coupling The dependency lookup approach makes the code tightly coupled. 
-If resource is changed, we need to perform a lot of modification in the code.
-Not easy for testing This approach creates a lot of problems while testing the application especially in black box testing.
+1) tight coupling The dependency lookup approach makes the code tightly coupled. 
+2) If resource is changed, we need to perform a lot of modification in the code.
+3) Not easy for testing This approach creates a lot of problems while testing the application especially in black box testing.
 
 
 ===============================================================================================================================================================
@@ -86,13 +86,13 @@ Spring framework provides two ways to inject dependency
 #What is Spring Boot
 Spring Boot is a project that is built on the top of the Spring Framework. It provides an easier and faster way to set up, configure, and run both simple and web-based applications.
 
-It is a Spring module that provides the RAD (Rapid Application Development) feature to the Spring Framework. 
-It is used to create a stand-alone Spring-based application that you can just run because it needs minimal Spring configuration.
+1) It is a Spring module that provides the RAD (Rapid Application Development) feature to the Spring Framework. 
+2) It is used to create a stand-alone Spring-based application that you can just run because it needs minimal Spring configuration.
 
-It is a Spring module that provides the RAD (Rapid Application Development) feature to the Spring Framework. 
-It is used to create a stand-alone Spring-based application that you can just run because it needs minimal Spring configuration.
+3) It is a Spring module that provides the RAD (Rapid Application Development) feature to the Spring Framework. 
+4) It is used to create a stand-alone Spring-based application that you can just run because it needs minimal Spring configuration.
 
-In short, Spring Boot is the combination of Spring Framework and Embedded Servers.
+5) In short, Spring Boot is the combination of Spring Framework and Embedded Servers.
 
 ==============================================================================================================================================================
 
