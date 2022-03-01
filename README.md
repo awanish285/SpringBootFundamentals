@@ -4,8 +4,6 @@
 @SpringBootApplication is a combination of three annotations @Configuration (used for Java-based configuration), @ComponentScan (used for component scanning), and @EnableAutoConfiguration (used to enable auto-configuration in Spring Boot)
 
 
-
-
 #Tech
 java,Springboot,junitTest,dependency-injecton
 
@@ -16,7 +14,8 @@ Maven
 Git
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------
-@SpringBootApplication is a combination of three annotations
+ #@SpringBootApplication is a combination of three annotations
+ 
 1) @Configuration
 2) @ComponentScan
 3) @EnableAutoConfiguration
@@ -63,8 +62,8 @@ Otherwise, you can include the AutowiredAnnotationBeanPostProcessor bean in the 
 ======================================================================================================================================================================
 #Dependency Injection in Spring: 
 
-Dependency Injection (DI) is a design pattern that removes the dependency from the programming code so that it can be easy to manage and test the application. 
-Dependency Injection makes our programming code loosely coupled.
+1) Dependency Injection (DI) is a design pattern that removes the dependency from the programming code so that it can be easy to manage and test the application. 
+2) Dependency Injection makes our programming code loosely coupled.
 
 #Problems of Dependency Lookup
 There are mainly two problems of dependency lookup.
@@ -108,11 +107,11 @@ We should use Spring Boot Framework because:
 
 ========================================================================================================================================================================
 
-Spring Data: It simplifies data access from the relational and NoSQL databases.
-Spring Batch: It provides powerful batch processing.
-Spring Security: It is a security framework that provides robust security to applications.
-Spring Social: It supports integration with social networking like LinkedIn.
-Spring Integration: It is an implementation of Enterprise Integration Patterns. It facilitates integration with other enterprise applications using lightweight messaging and declarative adapters.
+1) Spring Data: It simplifies data access from the relational and NoSQL databases.
+2) Spring Batch: It provides powerful batch processing.
+3) Spring Security: It is a security framework that provides robust security to applications.
+4) Spring Social: It supports integration with social networking like LinkedIn.
+5) Spring Integration: It is an implementation of Enterprise Integration Patterns. It facilitates integration with other enterprise applications using lightweight messaging and declarative adapters.
 
 ================================================================================================================================================================================
 #Advantages of Spring Boot
