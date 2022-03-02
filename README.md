@@ -1,8 +1,7 @@
 # SpringBootFundamentals
 
 #Description
-@SpringBootApplication is a combination of three annotations @Configuration (used for Java-based configuration), @ComponentScan (used for component scanning), and @EnableAutoConfiguration (used to enable auto-configuration in Spring Boot)
-
+Simple Springboot application about dependency injection concept....
 
 #Tech
 java,Springboot,junitTest,dependency-injecton
@@ -14,6 +13,8 @@ Maven
 Git
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------
+ @SpringBootApplication is a combination of three annotations @Configuration (used for Java-based configuration), @ComponentScan (used for component scanning), and @EnableAutoConfiguration (used to enable auto-configuration in Spring Boot)
+ 
  #@SpringBootApplication is a combination of three annotations
  
 1) @Configuration
