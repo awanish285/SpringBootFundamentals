@@ -44,7 +44,9 @@ public class AppConfig {
 }
 
 ===========================================================================================================================================================
-In XML based configuration, if the beans are wired using @Autowired annotation, 
+#XML based configuration
+
+1) In XML based configuration, if the beans are wired using @Autowired annotation, 
 then <context:annotation-config/> has to be added to the XML file. 
 Otherwise, you can include the AutowiredAnnotationBeanPostProcessor bean in the XML configuration file.
 
